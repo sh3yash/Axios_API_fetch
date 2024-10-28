@@ -1,0 +1,51 @@
+/* HomePage.css */
+.home-container {
+    position: relative; /* Allow content to position over the background */
+    width: 100%;
+    height: 100vh; /* Full height of the viewport */
+    overflow: hidden; /* Prevent overflow */
+  }
+  
+  .overlay-content {
+    position: absolute; /* Position relative to the container */
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Adjust for the center */
+    text-align: center; /* Center the text */
+    color: #1b0404; /* Text color */
+    z-index: 1; /* Ensure content stays above the Spline background */
+    padding: 20px; /* Add some padding */
+    /* Semi-transparent background for readability */
+ /* Optional: add background for readability */
+    border-radius: 8px; /* Rounded corners */
+    max-width: 1200px; /* Increased width for better display */
+    width: 100%; /* Ensure it takes full width up to max-width */
+  }
+  
+  .overlay-content h1 {
+    font-size: 2.5rem; /* Increase heading size */
+    margin-bottom: 10px; /* Space below heading */
+  }
+  
+  .overlay-content p {
+    font-size: 1.2rem; /* Increase paragraph size */
+    margin: 5px 0; /* Space between paragraphs */
+  }
+  
+  .user-list-button {
+    display: inline-block; /* Make it an inline block for better styling */
+    margin-top: 20px; /* Space above button */
+    padding: 10px 20px; /* Button padding */
+    background-color: #007bff; /* Button background color */
+    color: white; /* Button text color */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded corners */
+    text-decoration: none; /* Remove underline */
+    font-size: 1.2rem; /* Button text size */
+    transition: background-color 0.3s ease; /* Smooth transition */
+  }
+  
+  .user-list-button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+  }
+  
